@@ -1,0 +1,22 @@
+<!-- Custom code to be included after <body> tag -->
+<div class="pai-make">
+  <a href="<?php echo $hesk_settings['hesk_url']; ?>">
+    <img class="logo-Way"src="/img/Way-Importadora_Logo.png" max-height="200" 
+         alt="<?php echo $hesk_settings['hesk_title']; ?>"/>
+  </a>
+</div>
+<style>
+div.pai-make{
+	max-width:1070px;
+	width:100%;
+	margin:0 auto;
+	padding:10px 0;
+	text-align:center;
+	.btn-full {min-width: 152px;height: 40px;background-color: #3896c8 ;color: #fff;font-weight: 600;transition: all 250ms ease;text-decoration: none;
+	
+}
+img.logo-Way{
+	display:inline-block;
+	max-width: 150px;
+}
+</style>
